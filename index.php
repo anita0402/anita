@@ -7,6 +7,6 @@
   <body>
 <?php echo date("Y"); ?>
     sdajjjjkjhakjh
-    <a href="add.php">index.html</a>
+    <a href="selectcase.html">index.html</a>
   </body>
 </html>
