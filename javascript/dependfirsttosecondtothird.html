@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<script>
+function changeTime (obj)
+{
+if(obj.value == 1)
+{
+document.getElementById('delivered').style.display='block';
+document.getElementById('select2').style.display='none';
+document.getElementById('select3').style.display='none';
+}
+else if(obj.value == 2){
+document.getElementById('select1').style.display='block';
+document.getElementById('select2').style.display='none';
+document.getElementById('select3').style.display='none';
+}
+else{
+document.getELementById('select2').style.display='block';
+document.getElementById('select3').style.display='none';
+document.getElementById('select1').style.display='none';
+
+
+}
+}
+function changeTime1(obj)
+{
+if(obj.value == 1)
+{
+document.getElementById('select4').style.display='block';
+document.getElementById('select5').style.display='none';
+document.getElementById('select6').style.display='none';
+}
+else if(obj.value == 2)
+{
+document.getElementById('select5').style.display='block';
+document.getElementById('select4').style.display='none';
+document.getElementById('select6').style.display='none';
+}
+else{
+document.getElementById('select6').style.display='block';
+document.getElementById('select4').style.display='none';
+document.getElementById('select5').style.display='none';
+
+}
+}
+</script>
+<body>
+
+<select name="first" id="delivered" onchange="changeTime(this);">
+	<option value="1">c</option>
+	<option value="2">c++</option>
+	<option value="3">html</option>
+</select>
+<select name="second" id="select1" style="display:none;" onchange="changeTime1(this);">
+	<option value="1">stdio</option>
+	<option value="2">conio</option> 
+	<option value="3">math</option>
+</select>
+<select name="third" id="select2" style="display:none;">
+	<option value="1">item4</option>
+	<option value="2">item5</option>
+	<option value="3">item6</option>
+</select>
+<select name="fourth" id="select3" style="display:none;">
+	<option value="1">snack1</option>
+	<option value="2">snack2</option>
+	<option value="3">snack3</option>
+</select>
+<select name="fifth" id="select4" style="display:none;">
+	<option value="1">file1</option>
+	<option value="2">file2</option>
+	<option value="3">file3</option>
+</select>
+<select name="sixth" id="select5" style="display:none;">
+	<option value="1">header1</option>
+	<option value="2">header2</option>
+	<option value="3">header3</option>
+</select>
+<select name="seven" id="select6" style="display:none;">
+	<option value="1">array</option>
+	<option value="2">linklist</option>
+	<option value="3">stack</option>
+</select>
+</body>
+</html>
