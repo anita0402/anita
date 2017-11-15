@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>javascript</title>
+</head>
+
+<body>
+<div id="abc"></div>
+<script>
+function xyz()
+{
+document.getElementById("abc").innerHTML="my name is anita";
+
+}
+xyz();
+</script>
+
+
+<div id="sum">result</div>
+<button type="button" onclick="sum()">sum</button>
+<script>
+function sum(){
+var a=10,b=20;
+result=a+b;
+document.getElementById("sum").innerHTML=result;
+}
+
+</script>
+<h3>subtract</h3>
+<div id="subtract">result</div>
+<button type="button" onclick="subtract()">subtract</button>
+<script>
+function subtract(){
+var a=20,b=10;
+result=a-b;
+document.getElementById("subtract").innerHTML=result;
+}
+</script>
+<h3>multiply</h3>
+<div id="multiply">result</div>
+<button type="button" onclick="multiply()">multiply</button>
+<script>
+function multiply(){
+var a=10,b=2;
+result=a*b;
+document.getElementById("multiply").innerHTML=result;
+}
+
+</script>
+<h3>divsion</h3>
+<div id="divsion">result</div>
+<button type="button" onclick="divsion()">divsion</button>
+<script>
+function divsion(){
+var a=100,b=10;
+result=a/b;
+document.getElementById("divsion").innerHTML=result;
+}
+
+</script>
+<h2>assignment operator </h2>
+<h3>equalto</h3>
+<div id="equal">result</div>
+<button type="button" onclick="equal()">equal</button>
+<script>
+function equal(){
+var x=10,y=20;
+result=x=y;
+document.getElementById("equal").innerHTML=result;
+}
+</script>
+<h3>plusequalto(+=)</h3>
+<div id="plus">result</div>
+<button type="button" onclick="plus()">plus</button>
+<script>
+function plus(){
+var x=30, y=10;
+result=x+=y;
+document.getElementById("plus").innerHTML=result;
+}
+</script>
+<h3>minusequalto(-=)</h3>
+<div id="minus">result</div>
+<button type="button" onclick="minus()">minus</button>
+<script>
+function minus(){
+var x=30, y=20;
+result=x-=y;
+document.getElementById("minus").innerHTML=result;
+}
+</script>
+
+
+
+<h3>multiplyequalto(*=)</h3>
+<div id="multi">result</div>
+<button type="button" onclick="multiply()">multiply</button>
+<script>
+function multiply(){
+var x=20;
+var y=30;
+x*=y;
+document.getElementById("multi").innerHTML=x;
+}
+</script>
+
+
+<h3>divsionequalto(/=)</h3>
+<div id="demo3">result</div>
+<button type="button" onclick="divsion()">divsion</button>
+<script>
+function divsion(){
+var x=10;
+ var y=20;
+ x/=y;
+document.getElementById("demo3").innerHTML=x;
+}
+</script>
+
+<h3>modulusequalto(%=)</h3>
+<div id="modulus">result</div>
+<button type="button" onclick="modulus()">modulus</button>
+<script>
+function modulus(){
+var x=3, y=20;
+result=x%=y;
+document.getElementById("modulus").innerHTML=result;
+}
+</script>
+<h3>addition</h3>
+<div id="demo6">result</div>
+<button type="button" onclick="demo6()">addition</button>
+<script>
+function demo6(){
+var x=4, y=5;
+result=x+y;
+
+document.getElementById("demo6").innerHTML=result;
+}
+</script>
+<h4>subtraction</h4>
+<div id="subtraction">result</div>
+<button type="button" onclick="subtraction()">subtraction</button>
+<script>
+function subtraction(){
+var y=5 ,x=5;
+result=x-y;
+document.getElementById("subtraction").innerHTML=result;
+}
+
+</script>
+</body>
+</html>
