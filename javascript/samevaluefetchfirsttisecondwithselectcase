@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<script>
+function selectbox(listbox)
+{
+switch(listbox)
+{
+case "javascript" :
+
+document.getElementById("status").options[0]=new Option("javascript","");
+document.getElementById("status").options[1]=new Option("HTML","html");
+document.getElementById("status").options[2]=new Option("css","CSS");
+break;
+case "c" :
+document.getElementById('status').options[1]=new Option("c","");
+document.getElementById('status').options[2]=new Option("array","ARRAY");
+document.getElementById('status').options[3]=new Option("linklist","LINKLIST");
+document.getElementById('status').options[4]=new Option("stack","STACK");
+break;
+case "html" :
+document.getElementById('status').options[0]=new Option("html","");
+document.getElementById('status').options[1]=new Option("html" , "HTML");
+document.getElementById('status').options[2]=new Option("html1.0" , "HTML2.0");
+document.getElementById('status').options[3]=new Option("html2.0" , "HTML2.0");
+document.getElementById('status').options[4]=new Option("html3.0" , "HTML3.0");
+break;
+}
+return true;
+}
+
+
+</script>
+<body>
+
+<select id="source" name="source" onchange="selectbox(this.options[this.selectedIndex].value);">
+<option value="javascript">javascript</option>
+<option value="c">c</option>
+<option value="html">html</option>
+
+</select>
+<script>
+document.write('<select name="status" id="status"><option value="">select status</option></select>')
+</script>
+</body>
+</html>
