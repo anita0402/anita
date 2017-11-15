@@ -9,7 +9,7 @@
     sdajjjjkjhakjh
     <a href="javascript/selectcase.html">index.html</a>
     
-    <html><?php
+    <?php
 	$now = getdate(time());
 	$time = mktime(0,0,0, $now['mon'], 1, $now['year']);
 	$date = getdate($time);
