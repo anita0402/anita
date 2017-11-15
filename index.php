@@ -5,9 +5,7 @@
     </title>
     </head>
   <body>
-<?php echo date("Y"); ?>
-    sdajjjjkjhakjh
-    <a href="javascript/selectcase.html">index.html</a>
+
     
     <?php
 	$now = getdate(time());
