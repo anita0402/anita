@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>company form</title>
+<script>
+function validateform(){
+var a=document.forms["form1"]["name"].value;
+if(a==""){
+alert("please enter your name");
+return false;
+}
+var b=document.forms["form1"]["title"].value;
+if(b==""){
+alert("enter the title");
+return false;
+}
+var c=document.forms["form1"]["departement"].value;
+if(c==""){
+alert("enter the departement name");
+return false;
+}
+var c=document.forms["form1"]["phoneno"].value;
+if(c==""){
+alert("enter the phone no");
+return false;
+}
+var d=document.forms["form1"]["mobile"].value;
+if(d==""){
+alert("enter the mobile no");
+return false;
+}
+var e=document.forms["form1"]["fax"].value;
+if(e==""){
+alert("enter the fax no");
+return false;
+}
+var f=document.forms["form1"]["address"].value;
+if(f==""){
+alert("enter the address");
+return false;
+}
+
+}
+
+</script>
+<style>
+.wrappper{width:1330px;
+margin:auto;}
+.main{width:1290px;
+margin:auto;}
+.header{width:100%;
+float:left;
+background:#FFFFFF;}
+.header nav li{float:left;
+border-right:solid #000066 2px;
+margin-right:20px;
+font-weight:bold;
+font-size:24px;
+list-style:none;
+text-transform:capitalize;}
+.menus{background:#34629D;
+width:100%;
+float:left;
+padding:15px;
+ 
+}
+.menus nav li{float:left;
+color:#FFFFFF;
+text-transform:uppercase;
+list-style:none;
+margin-left:20px;
+margin-right:20px;
+background:#235379;
+padding:5px;
+}
+.details{align:center;
+width:auto;
+text-align:center;
+}
+
+h1{text-align:center;
+text-transform:capitalize;}
+input{width:100%; margin-bottom:15px;
+margin-top:10px;
+padding:5px;
+float:left;
+ }
+footer{background:#F4F2F5;
+width:100%;
+float:left;
+padding:10px;
+ 
+}
+footer nav li{float:left;
+color:black;
+text-transform:uppercase;
+list-style:none;
+margin-left:20px;
+margin-right:20px;
+background:#FFFFFF;
+border:#FDFFFE solid 1px;
+text-shadow:#000000;
+}
+
+td{text-align:left; 
+padding:10px;
+font-size:20px;
+text-transform:capitalize;}
+.btnsubmit{width:100%;}
+#names{ width:256%;}
+#company {
+    padding: 7px;
+    width: 126%;}
+#title{width:256%;}
+#departement{width:256%;}
+#phone{width:107%;}
+#mobile{width:107%;}
+#mail{width:107%;}
+#fax{width:107%;}
+#address{width:256%;}
+#ext{width:83%;}
+#a{width:83%;}
+#b{width:83%;}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+<div class="main">
+	<div class="header">
+		<nav><li>contactus</li>
+		<li style="color:#4B6D86;">add contact</li>
+		</nav></div>
+	<div class="menus">
+		<nav><li>save</li>
+		<li>save& add another</li>
+		<li>cancel</li></nav>
+	
+	</div>
+	<div class="details"><h1>add contact details</h1>
+	<form name="form1" onsubmit="return validateform()" action="" method="post">
+	<table width="540"align="center">
+	  <tr>
+    <td>name*</td>
+    <td><input name="name" type="text" id="names" /></td>
+  </tr>
+
+  <tr>
+    <td>company</td>
+    <td><select name="company" id="company">
+      <option>Select Item</option>
+      <option value="India">India</option>
+      <option value="aus">Aus</option>	
+	</select></td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td><input name="title" type="text" id="title" placeholder="Enter The TITLE"  /></td>
+  </tr>
+  <tr>
+    <td>departement</td>
+    <td><input name="departement" type="text" id="departement"  placeholder="Enter The Department"/></td>
+  </tr>
+ 
+  <tr>
+    <td>phone no</td>
+    <td><input name="phoneno" type="text" id="phone" placeholder="+91"/></td>
+    <td>ext.</td>
+    <td><input name="ext" type="text" id="ext" /></td>
+  </tr>
+  <tr>
+    <td>mobile</td>
+    <td><input name="mobile" type="text" id="mobile" placeholder="Mobile No" /></td>
+    <td>ext.</td>
+    <td><input name="" type="text" id="a"/></td>
+  </tr>
+  <tr>
+    <td>fax</td>
+    <td><input name="fax" type="text" id="fax" placeholder="Enter The Fax"/>
+	</td>
+    <td>ext.</td>
+    <td><input name="" type="text" id="b" /></td>
+  </tr>
+  <tr><td>emailaddress*</td>
+  <td><input name="address" type="text" id="address"  placeholder="Enter The Email" /></td></tr>
+  <tr>
+  <td><input name="submit" type="submit"  value="submit"/></td>
+  <td><input name="reset"  type="reset" value="reset" /></td></tr>
+</table>
+</form>
+</div>
+<footer><nav><li>save</li>
+		<li>save& add another</li>
+		<li>cancel</li></nav>
+	</footer>
+</div>
+</div>
+</body>
+</html>
