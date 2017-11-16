@@ -2,12 +2,35 @@
 <head></head>
 <title>form validation</title>
   <link rel="stylesheet" href="cssfile.css" type="text/css"/>
+	<script>
+function validateform(){
+var a=document.forms["form1"]["firstname"].value;
+if(a==""){
+alert("please enter your name");
+return false;
+}
+var b=document.forms["form1"]["lastname"].value;
+if(b==""){
+alert("enter the lastname");
+return false;
+}
+var c=document.forms["form1"]["father's name"].value;
+if(c==""){
+alert("enter the father's name");
+return false;
+}
+var d=document.forms["form1"]["title"].value;
+if(c==""){
+alert("enter the title");
+return false;
+}
+	</script>
 <body>
-<form>
+<form name="form1">
   <table width="540" align="center" border="2px">
   <tr>
 <td>firstname</td>
-	  <td><input type="text" name="firstname" placeholder="enter the name"/></td></tr>
+	  <td><input type="text" name="firstname"  placeholder="enter the name"/></td></tr>
 <tr><td>lastname</td>
   <td><input type="text" name="lastname" placeholder="enter the lastname"/></td></tr>
 <tr><td>father's name</td>
