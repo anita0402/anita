@@ -1,0 +1,82 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>if else statement</title>
+</head>
+
+<body>
+<div id="confirm"></div>
+<button onclick="demo()">confirm box</button>
+<script>
+function demo(){
+var a;
+if(confirm("pressed ok")==true)
+{
+a="enter the ok button";
+}
+else{
+a="enter the cancel button";
+}
+document.getElementById("confirm").innerHTML=a;
+window.print();
+}
+
+</script>
+<div id="anita"></div>
+<button onclick="ani()">prompt box</button>
+<script>
+function ani()
+{
+var a;
+var b=prompt("Enter Name","");
+if(b==null || b==""){
+a="cancel by user";
+}
+else
+{
+a=b;
+}
+document.getElementById("anita").innerHTML=a;
+window.print();
+}
+</script>
+
+<script>
+function swap()
+{
+var a,c,d;
+a=Number(document.getElementById("first").value);
+
+for(c=1; c<=a; c++)
+{
+for(d=1; d<=c; d++)
+{
+document.write('*');
+}
+document.write('<br>1');
+}
+}
+</script>
+value of a:<input id="first" />
+value of b:<input type="text" id="second" value="" />
+<button onclick="swap()"> click me </button>
+
+value of a:<input id="first" type="text" />
+value of b:<input id="second" type="text" />
+value of c:<input id="result" type="text" />
+<input type="button" onclick="addition()" />
+<script>
+function addition()
+{
+
+var a,b,c;
+a=parseInt(document.getElementById("first").value);
+b=parseInt(document.getElementById("second").value);
+c= a + b;
+document.getElementById("result").innerHTML=c;
+
+}
+</script>
+</body>
+</html>
