@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>function</title>
+</head>
+
+<body>
+<div id="demo"></div>
+<button onclick="demo2()">tryit</button>
+<script>
+function demo2()
+{
+alert("enter the value");
+}
+</script>
+
+
+
+<div id="demo1"></div>
+<button onclick="demo3()">tryit</button>
+<script>
+function demo3()
+{
+confirm("do you want to close this");
+}
+
+</script>
+<div id="demo4"></div>
+<button onclick="demo5()">tryit</button>
+<script>
+function demo5()
+{
+prompt("enter the value of a");
+}
+
+</script>
+<div id="anita"></div>
+<button onclick="ani()">tryit</button>
+
+<!----<script>
+function ani()
+{
+var a;
+var b=prompt("Enter Name","");
+if(b==null || b==""){
+a="cancel by user";
+}
+else
+{
+a=b;
+}
+alert(a);
+document.getElementById("anita").innerHTML=a;
+}
+</script>-->
+<script>
+function ani()
+{
+
+prompt("Enter Name","");
+}
+</script>
+<div id="confirm"></div>
+<button onclick="demo6()">try me</button>
+<script>
+function demo6(){
+if(confirm("press ok")==true){
+a="pressed ok";
+}
+else
+{
+a="pressed cancel button";
+
+document.getElementById("confirm").innerHTML=a;
+
+}
+</script>
+</body>
+</html>
