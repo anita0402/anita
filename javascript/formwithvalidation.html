@@ -39,6 +39,14 @@ if(g==""){
 alert("enter the email");
 return false;
 }
+	 var email = document.getElementById('txtEmail');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email.value)) {
+    alert('Please provide a valid email address');
+    email.focus;
+    return false;
+ }
 }
 	</script>
 <body>
@@ -73,7 +81,7 @@ return false;
 		  </td>
   </tr>
   <tr><td>emailaddress</td>
-  <td><input name="address" type="text" id="address"  placeholder="Enter The Email" /></td></tr>
+  <td><input name="address" type="text" id="txtEmail"  placeholder="Enter The Email" /></td></tr>
   <tr>
   <td><input name="submit" type="submit"  value="submit" class="btnsubmit"/></td>
   <td><input name="reset"  type="reset" value="reset" class="btnsubmit"/></td></tr>
