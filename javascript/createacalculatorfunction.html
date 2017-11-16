@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<script type="text/javascript">
+function add()
+{
+var a,b,result;
+
+
+a=Number(document.getElementById('addition').value);
+b=Number(document.getElementById('subtract').value);
+result=a+b;
+document.getElementById('result').value=result;
+}
+function sub()
+{
+
+a=Number(document.getElementById('addition').value);
+b=Number(document.getElementById('subtract').value);
+result=a-b;
+document.getElementById('result').value=result;
+}
+
+function multi()
+{
+
+a=Number(document.getElementById('addition').value);
+b=Number(document.getElementById('subtract').value);
+result=a*b;
+document.getElementById('result').value=result;
+}
+
+function divide()
+{
+
+a=Number(document.getElementById('addition').value);
+b=Number(document.getElementById('subtract').value);
+result=a/b;
+document.getElementById('result').value=result;
+}
+</script>
+<body>
+<input type="text" id="addition" />
+<input type="text" id="subtract" />
+<input type="text" id="result"  />
+<br />
+<input type="button" value="+" onclick="return add()" />
+<input type="button" value="-" onclick="return sub()"/>
+<input type="button" value="*"onclick=" return multi()" />
+<input type="button" value="/"onclick="return divide()" />
+<input type="reset" />
+</body>
+</html>
