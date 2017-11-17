@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script>
+function validate()
+{
+var a=document.forms["myform"]["name"].value;
+if(a=="")
+{
+alert("please enter your name");
+return false;
+}
+var b=document.forms["myform"]["surname"].value;
+if(b=="")
+{
+alert("please enter your surname");
+return false;
+}
+var c=document.forms["myform"]["email"].value;
+if(c=="")
+{alert("please enter your email id");
+return false;}
+var d=document.forms["myform"]["email2"].value;
+if(d=="")
+{
+alert(" enter your date of birth");
+return false;
+}
+}
+
+</script>
+</head>
+<style>
+.wrapper{
+width:1330px;}
+.main{width:1300px;
+margin:auto;}
+.title{width:100%;
+float:left;
+background:#99FF99;}
+h1{text-align:center;}
+td{text-align:left; 
+padding:10px;
+font-weight:bold;
+font-size:19px;
+text-transform:capitalize;}
+
+input{width:210px;
+float:left;}
+.btn {
+    width: 73px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: black;
+    border: navajowhite;
+    color: white;
+}
+
+</style>
+<body>
+<div class="wrapper">
+	<div class="main">
+		<div class="title"><h1>simple form</h1>
+		<form name="myform" action="" onsubmit="return validate()" method="post"> 
+		<table width="472"  align="center">
+  <tr>
+    <td width="149">name</td>
+    <td width="311"><input name="name" type="text" placeholder="enter your name" /></td>
+  </tr>
+  <tr>
+    <td>surname</td>
+    <td><input name="surname" type="text" placeholder="enter your surname" /></td>
+  </tr>
+  <tr>
+    <td>address</td>
+    <td><textarea name="textarea" cols="25" rows="5"></textarea></td>
+  </tr>
+  <tr>
+    <td>email</td>
+    <td><input name="email" type="text" placeholder="enter the email" /></td>
+  </tr>
+  <tr>
+    <td>date of birth </td>
+    <td><input name="email2" type="text" placeholder="date of birth "/></td>
+  </tr>
+  <tr><td></td>
+  <td><input type="submit" value="submit" class="btn" /></td></tr>
+</table>
+        
+		</form>
+		
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
