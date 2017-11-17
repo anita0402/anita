@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>personal form</title>
+<style>
+.wrapper{width:1330px;
+}
+.main{width:1300px;
+margin:auto;
+}
+.information{
+background-color:#fffbf0;
+text-align:center;}
+td{text-align:left; 
+padding:10px;
+font-weight:bold;
+font-size:19px;
+text-transform:capitalize;}
+.btnsubmit {
+    background: black;
+    color: white;
+    padding: 5px;
+    width: 70px;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 2px 3px 2px 2px white;
+}
+
+</style>
+
+</head>
+<script>
+function myvalidation()
+{
+var a=document.forms["form1"]["textfield"].value;
+if (a=="")
+{
+alert("please enter the name");
+return false;
+}
+
+
+var b=document.forms["form1"]["textfield2"].value;
+if(b=="")
+{alert("please enter your surname");
+return false;
+}
+var c=document.forms["form1"]["textfield3"].value;
+if(c=="")
+{
+alert("please enter your father's name");
+return false;
+}
+} 
+</script>
+
+<body>
+<div class="wrapper">
+<div class="main">
+<div class="information">
+<form id="form1" name="form1" method="post" action="" onsubmit="return myvalidation()">
+<fieldset><legend><h1>Personal Information</h1></legend>
+<table width="630"  align="center">
+  <tr>
+    <td width="160">first Name</td>
+    <td width="458"><label>
+      <input type="text" name="textfield" placeholder="enter your name" />
+    </label></td>
+  </tr>
+  <tr>
+    <td>surname </td>
+    <td><input type="text" name="textfield2" placeholder="enter your sur name" /></td>
+  </tr>
+  <tr>
+    <td>father's name</td>
+    <td><input type="text" name="textfield3" placeholder="father's name" /></td>
+  </tr>
+  <tr>
+    <td>gender</td>
+    <td><label>male
+      <input name="radiobutton" type="radio" value="radiobutton" />
+     female
+      <input name="radiobutton" type="radio" value="radiobutton" />
+      </label></td>
+  </tr>
+  <tr>
+    <td>date of birth </td>
+    <td><label>
+      <select name="select"><option>1</option>
+	  <option>2</option>
+	  <option>3</option>
+	  <option>4</option>
+	  <option>5</option>
+	  <option>6</option>
+	  <option>7</option>
+	  <option>8</option>
+	  <option>9</option>
+	  <option>10</option>
+      </select>
+      <select name="select2"><option>janurary</option>
+	  <option>feb</option>
+	  <option>march</option>
+	  <option>apr</option>
+	  <option>may</option>
+	  <option>june</option>
+	  <option>july</option>
+	  <option>aug</option>
+	  <option>sep</option>
+      </select>
+      <select name="select3"><option>1999</option>
+	  <option>2000</option>
+	  <option>2001</option>
+	  <option>2002</option>
+	  <option>2003</option>
+	  <option>2004</option>
+	  <option>2005</option>
+      </select>
+    </label></td>
+  </tr>
+  <tr>
+    <td>course</td>
+    <td><label>
+      <select name="select4"><option>btech</option>
+      </select>
+      <select name="select5"><option>cse</option>
+      </select>
+    </label></td>
+  </tr>
+  <tr>
+    <td>address</td>
+    <td><textarea name="" cols="20" rows="5"></textarea></td>
+  </tr>
+  <tr>
+    <td>phone no </td>
+    <td><label>
+      <select name="select6"><option>+91</option>
+      </select>
+      <input type="text" name="textfield22" />
+    </label></td>
+  </tr>
+  <tr>
+    <td>photo upload </td>
+    <td><label>
+      <input type="submit" name="Submit2" value="choose" />
+    </label></td>
+  </tr>
+  <tr>
+    <td>technical</td>
+    <td><label>c:
+        <input type="checkbox" name="checkbox" value="checkbox" />
+        c++:
+        <input type="checkbox" name="checkbox2" value="checkbox" />
+      css:
+      <input type="checkbox" name="checkbox3" value="checkbox" />
+      html:
+      <input type="checkbox" name="checkbox4" value="checkbox" />
+      </label></td>
+  </tr>
+  <tr>
+    <td>fee structure </td>
+    <td><label>
+      <select name="select7"><option>2000</option>
+      </select>
+    </label></td>
+  </tr>
+   <tr>
+    <td><label>
+      <input type="submit" name="Submit" value="Submit" class="btnsubmit" />
+    </label></td>
+    <td><label>
+      <input type="reset" name="Submit3" value="Reset" class="btnsubmit" />
+    </label></td>
+  </tr>
+</table>
+</fieldset>
+ 
+</form>
+</div></div></div>
+</body>
+</html>
