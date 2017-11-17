@@ -6,17 +6,17 @@
 function validateform(){
 var a=document.forms["form1"]["firstname"].value;
 if(a==""){
-	document.getElementById("error").innerHTML="please enter your name";
+	document.getElementById("error1").innerHTML="please enter your name";
 return false;
 }
 var b=document.forms["form1"]["lastname"].value;
 if(b==""){
-alert("enter the lastname");
+document.getElementById("error2").innerHTML="enter the lastname";
 return false;
 }
 var c=document.forms["form1"]["father"].value;
 if(c==""){
-alert("enter the father's name");
+document.getElementById("error3").innerHTML="enter the father's name";
 return false;
 }
 var d=document.forms["form1"]["title"].value;
@@ -43,7 +43,7 @@ return false;
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
     if (!filter.test(email.value)) {
-    alert('Please provide a valid email address');
+    document.getElementById("error").innerHTML='Please provide a valid email address';
     email.focus;
     return false;
  }
@@ -55,7 +55,7 @@ return false;
   <table width="540" align="center">
   <tr>
 <td>firstname</td>
-	  <td><input type="text" name="firstname" id="firstname" placeholder="enter the name"/></td></tr>
+	  <td><input type="text" name="firstname" id="firstname" placeholder="enter the name"/><span style="color:red; id="error1"></td></tr>
 <tr><td>lastname</td>
   <td><input type="text" name="lastname" id="lastname" placeholder="enter the lastname"/></td></tr>
 <tr><td>father's name</td>
