@@ -11,3 +11,8 @@ color:black;
 padding:10px;
 font-size:20px;
 border:none!important;}
+.header h1{
+text-align:center;
+  text-transform:capitalize;
+
+}
