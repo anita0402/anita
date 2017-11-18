@@ -1,0 +1,126 @@
+
+.wrapper {
+    margin: auto;
+    width: 1200px;
+}
+.main {
+    float: left;
+    margin: 10px;
+    width: 100%;
+}
+.around {
+    background-color: #90e0f7;
+    float: left;
+    width: 100%;
+}
+.header {
+    background-color: #24292c;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.header1 {
+    background-color: #60cbf5;
+    float: left;
+    margin-left: 170px;
+    text-transform: capitalize;
+    width: 70%;
+}
+.header1 {
+    background-color: #60cbf5;
+    float: left;
+    margin-left: 170px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    width: 70%;
+}
+img {
+    float: left;
+}
+button {
+    font-weight: bold;
+    margin-left: 491px;
+    padding: 5px;
+    text-align: center;
+}
+.menus {
+    background-color: #63b9dc;
+    border-radius: 10px;
+    float: left;
+    margin-left: 14%;
+    width: 71%;
+}
+.menus nav li {
+    color: white;
+    float: left;
+    font-size: 20px;
+    list-style: outside none none;
+    margin-left: 30px;
+    margin-right: 32px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.workarea {
+    background-color: #e4f7fe;
+    border-bottom: medium solid #d2e6ed;
+    float: left;
+    width: 100%;
+}
+.left {
+    border-right: medium solid #d2e6ed;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;
+    width: 30%;
+}
+.center {
+    border-right: medium solid #d2e6ed;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;
+    width: 30%;
+}
+.right {
+    float: left;
+    text-align: center;
+    text-transform: capitalize;
+    width: 30%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.workarea {
+    float: left;
+    width: 100%;
+}
+.leftside {
+    border-right: medium solid #d2e6ed;
+    float: left;
+    text-transform: capitalize;
+    width: 50%;
+}
+.rightside {
+    float: left;
+    text-transform: capitalize;
+    width: 49%;
+   text-align: center;
+}
+    
+.rightside img {
+    margin-left: 23%;
+}
+img {
+    float: left;
+}
+
+p{text-align:justify;}
+footer {
+    background-color: #27556d;
+    float: left;
+    padding: 7px;
+    text-align: center;
+    width: 99%;
+}

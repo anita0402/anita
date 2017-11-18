@@ -1,0 +1,148 @@
+.wrapper {
+    margin: auto;
+    width: 1200px;
+}
+.main {
+    float: left;
+    margin: 10px;
+    width:100%;
+}
+.header {
+    background-color: #121212;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    width: 100%;
+}
+a {
+    color: #4f8e02;
+    text-decoration: none;
+}
+ul li {
+    color: white;
+    float: left;
+    font-size: 20px;
+    list-style: outside none none;
+    margin-left: 20px;
+    margin-right: 5%;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.leftside {
+    background-color: white;
+    float: left;
+    width: 25%;
+}
+.main_plans {
+    float: left;
+    width: 1226px;
+}
+.basic {
+    background: #eef0ed none repeat scroll 0 0;
+    border: 1px solid #eef0ed;
+    float: left;
+    margin-right: 10px;
+padding-bottom:30px;
+}
+.basic button {
+    background: #000000 none repeat scroll 0 0;
+    border: medium solid #000000;
+    border-radius: 10px;
+    box-shadow: 3px 1px 3px 0 #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+}
+.learnmore {
+    margin: auto;
+    width: 92px;
+}
+.price h3{ color:#619E05; text-align:center;}
+.basic h1 {
+    background: #7ab012 none repeat scroll 0 0;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    top: -21px;
+    width: 269px;
+border-radius:3px;
+}
+
+
+.basic p{ padding:5px; border-bottom: solid 1px #000; text-align:center; width:190px; margin:auto;}
+.leftside ol{}
+ol li {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: color;
+    background-color: #4f8e02;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 21px;
+    text-align: center;
+position:relative;
+left:-40px;
+    text-transform: capitalize;
+}
+
+.leftside ol li:hover{ animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: color;
+    background-color: #000000;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 21px;
+    text-align: center;
+position:relative;
+left:-40px;
+    text-transform: capitalize;}
+@keyframes color {
+0% {
+    background-color: #4f8e02;
+}
+100% {
+    background-color: yellow;
+}
+}
+
+.workarea {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: abc;
+    border: 1px solid white;
+    float: left;
+    height: 335px;
+    padding: 15px;
+    position: relative;
+    width: 72%;
+}
+@keyframes abc {
+0% {
+    background-image: url("file:///C:/Users/laptop/Desktop/my%20html/anita/noteptemplate/animation/images/images.jpg");
+    left: 0;
+    right: 100px;
+}
+25% {
+    background-image: url("file:///C:/Users/laptop/Desktop/my%20html/anita/noteptemplate/animation/images/4.jpg");
+    left: 0;
+    right: 100px;
+}
+50% {
+    background-image: url("file:///C:/Users/laptop/Desktop/my%20html/anita/noteptemplate/animation/images/3.jpg");
+    left: 0;
+    right: 300px;
+}
+75% {
+    background-image: url("file:///C:/Users/laptop/Desktop/my%20html/anita/noteptemplate/animation/images/5.jpg");
+    left: 0;
+    right: 200px;
+}
