@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<script>
+function abc()
+{
+document.getElementById("demo").innerHTML+='<input type="text" name="username"/>';
+document.getElementById("demo").innerHTML+='<select><option></option></select>';
+document.getElementById("ab").style.fontSize = "30px";
+}
+</script>
+<body>
+<div id="demo">
+<input type="text" id="demo1" />
+<p id="ab">hello world!</p>
+<p id="cd"></p>
+
+<button type="button" onclick="abc()">button</button>
+<input type="radio" name="def" />
+<select><option></option></select>
+<input type="radio" name="def2" />
+</body>
+</html>
