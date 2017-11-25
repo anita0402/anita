@@ -1,0 +1,14 @@
+<script src="js/jquery-3.2.1.min.js"></script>
+<button>click me</button>
+<div style="abc" style="background-color:green; height:100px; width:200px; position:absolute;">hello</div>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+var div=("div");
+div.animate({left:"100px"},"slow");
+div.animate({left:"100px"},"slow");
+div.animate({left:"100px"},"slow");
+});
+
+});
+</script>
