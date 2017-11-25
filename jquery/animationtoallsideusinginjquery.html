@@ -1,0 +1,18 @@
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<button>clickme</button>
+<div id="abc" style="background-color:green; height:100px; width:200px; position:absolute;">abc</div>
+<script>
+    $(document).ready(function()
+    {
+        $("button").click(function(){
+var div=$("div");
+div.animate({right:"200px",fontSize:"30px"},3000);
+div.animate({bottom:"100px",fontSize:"40px"},3000);
+div.animate({left:"100px",fontSize:"20px"},3000);
+div.animate({top:"100px",fontSize:"40px"},3000);
+
+        });
+
+
+    });
+</script>
