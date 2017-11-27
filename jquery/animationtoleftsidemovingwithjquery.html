@@ -2,15 +2,13 @@
 <button>click me</button>
 <div id="abc" style="background-color:green; height:100px; width:200px; position:absolute;">abcd</div>
 <div  style="background-color:red; height:100px; width:200px; top:100px; position:absolute;">abbc</div>
-<script type="text/javascript">
+<script> 
 $(document).ready(function(){
-$("button").click(function(){
-var div=("div");
-div.animate({left:"100px"}, "slow");
-div.animate({fontSize:"3em"},"slow");
-div.animate({opacity:"0.5",width:"400px"},3000);
-
+    $("button").click(function(){
+        var div = $("div");  
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '3em'}, "slow");
+      div.animate({opacity:"0.5",width:"400px"},3000);
+    });
 });
-
-});
-</script>
+</script> 
