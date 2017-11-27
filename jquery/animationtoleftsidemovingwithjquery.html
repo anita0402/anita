@@ -1,13 +1,15 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <button>click me</button>
-<div style="abc" style="background-color:green; height:100px; width:200px; position:absolute;">hello</div>
+<div id="abc" style="background-color:green; height:100px; width:200px; position:absolute;">abc</div>
+<div  style="background-color:red; height:100px; width:200px; top:100px; position:absolute;">abbc</div>
 <script>
 $(document).ready(function(){
 $("button").click(function(){
-var div=("div");
-div.animate({left:"100px"},"slow");
-div.animate({left:"100px"},"slow");
-div.animate({left:"100px"},"slow");
+var div=("#abc");
+div.animate({left:"100px"}, "slow");
+div.animate({fontSize:"3em"},"slow");
+div.animate({opacity:"0.5",width:"400px"},3000);
+
 });
 
 });
