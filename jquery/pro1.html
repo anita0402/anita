@@ -1,17 +1,18 @@
 <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<button type="button" name="click">tryit</button>
 <div class="div1" style="width:200px; height:200px; background-color:red;"></div>
 <div class="div2" style="width:200px; height:200px; background-color:blue;"></div>
 <div class="div3" style="width:200px; height:200px; background-color:green;"></div>
-<button type="button" name="click">tryit</button>
+
 <script>
 $(document).ready(function()
                   {
   
 $(button).click(function()
                 {            
-  $("#div1").fadeTo()
-    $("#div2").fadeTo("slow")
-  $("#div3").fadeTO(3000)
+  $("#div1").fadeTo("slow",0.15)
+    $("#div2").fadeTo("slow",0.5)
+  $("#div3").fadeTO("slow".0.12)
 
 });
 
