@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>match the character and show the same words with prompt box</title>
+    </head>
+    <body>
+     <input type="text" id="myinput">
+<button type="button" onclick="abc()">click</button>
+<div id="demo"></div>
+<script>
+function abc(){
+var text;
+var fruits=document.getElementById("myinput").value;
+switch(fruits)
+{
+case 'a' :
+text="apple";
+break;
+case 'b' :
+text="ball";
+break;
+case 'c' :
+text="cat";
+break;
+default:
+text="the choice is not present";
+
+}
+
+document.getElementById("demo").innerHTML=text;
+
+}
+
+
+
+</script>
+
+    </body>
+</html>
