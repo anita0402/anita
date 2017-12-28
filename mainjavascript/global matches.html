@@ -1,0 +1,34 @@
+<html>
+<body>
+<!--g flag-->
+<h2>JavaScript String Methods</h2>
+
+<p>Replace all occurrences of "nerchowk" with "neo web space" in the paragraph below:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo">Please visit nerchowk and nerchowk!</p>
+
+<script>
+function myFunction()
+ {
+    var str = document.getElementById("demo").innerHTML; 
+    var txt = str.replace(/nerchowk/g,"neo web space");
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+<!--i flag-->
+<button onclick="abc()">try it</button>
+<p id="demo1">read the html and html</p>
+<script>
+
+    function abc()
+    {
+var str = document.getElementById("demo1").innerHTML;
+var txt = str.replace(/HTML/i,"w3school");
+document.getElementById("demo1").innerHTML = txt;
+    }
+</script>
+
+</body>
+</html>
