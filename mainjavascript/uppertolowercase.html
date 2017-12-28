@@ -1,0 +1,30 @@
+html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+<!--upper case-->
+        <p>convert string to upper case</p>
+        <button onclick="myfunction()">try it</button>
+        <p id="demo"> hello world</p>
+        <script>
+            function myfunction()
+            {
+      var text=  document.getElementById("demo").innerHTML;
+      document.getElementById("demo").innerHTML=text.toUpperCase();
+            }
+        </script>
+        <!--lower case-->
+         <p>conver string to lower case</p>
+         <button onclick="functionmemo()">try it</button>
+         <p id="demo1"> HeLlo woRlDṇ</p>
+         <script>
+             function functionmemo()
+             {
+       var text=  document.getElementById("demo1").innerHTML;
+       document.getElementById("demo1").innerHTML=text.toLowerCase();
+             }
+         </script>
+
+    </body>
+</html>
