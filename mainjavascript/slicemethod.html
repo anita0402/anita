@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title></title>
+    
+    </head>
+    <body>
+        <h1>Slice method:-</h1>
+            <p><h1>slice method()</h1>slice extract part of string and return the extracted part in a new string</p>
+        <!--slice method-->
+        <div id="demo"></div>
+        
+        <script>
+        var str="my name is anita";
+        var res=str.slice(7,13);
+        document.getElementById("demo").innerHTML=res;
+        </script>
+        <h1>negative number with slice method</h1>
+        <!--negative number-->
+        <div id="demo1"></div>
+        <script>
+        var str = "my name is anita";
+        var res = str.slice(-12,-6);
+        document.getElementById("demo1").innerHTML=res;
+        </script>
+        <h1>substring method()</h1>
+        <!--substring-->
+        <div id="abc"></div>
+        <script>
+        var str="my name is anita";
+        var result=str.substring(7,12);
+        document.getElementById("abc").innerHTML=result;
+        </script>
+<!--substr()method-->
+<h1>substr()</h1>
+<div id="js"></div>
+<script>
+    var str="it is a demo of sub str method";
+    var ab=str.substr(5,9);
+    document.getElementById("js").innerHTML=ab;
+</script>
+<!--replace method-->
+
+<h1>replace method</h1>
+<div id="rep">visit for nerchowk</div>
+<button onclick="myfunction()">click me</button>
+<script>
+    function myfunction(){
+    var str=document.getElementById("rep").innerHTML;
+    var txt=str.replace("nerchowk","neowebspace");
+    document.getElementById("rep").innerHTML=txt;
+    }
+    
+</script>
+    </body>
+</html>
