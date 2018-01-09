@@ -2,106 +2,138 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-</head>
+<title>form</title>
+<script>
+function validation(){
+var a=document.forms["form1"]["name"].value;
+if(a=="")
+{
+alert("enter your name");
+return false;
+}
+var b=document.forms["form1"]["surname"].value;
+if(b=="")
+{
+alert("enter your surname");
+return false;
+}
+var c=document.forms["form1"]["address"].value;
+if (c=="")
+{
+alert("enter the address");
+return false;
+}
+var d=document.forms["form1"]["phone"].value;
+if(d=="")
+{
+alert("enter your phone no");
+return false;
+}
+var e=document.forms["form1"]["email"].value;
+if(e=="")
+{
+alert("enter your email id");
+return false;
+}
+var f=document.forms["form1"]["zip"].value;
+if(f=="")
+{
+alert("enter your zip code");
+return false;
+}
+}
+
+</script>
 <style>
-.wrapper{width:1300px;}
-.main{width:1200px;
-background:#9CBC2D;
+.container{width:1300px;
+margin:auto;}
+.main{width:1250px;
+text-align:center;
 float:left;
-text-transform:capitalize;
-text-align:center;}
-.workarea{width:100%;}
-.work{width:100%;
-float:left;
+background:#FFD700;
+text-transform:capitalize;}
+.workarea{width:900px;
+margin:auto;
 
-background:#CC9966 tr}
-
-.work input {
-    border-radius: 5px;
+}
+input {
     float: left;
-    padding: 8px;
-    width: 331px;
+    padding: 4px;
+    width: 216px;
+	text-align:center;
+	text-transform:capitalize;
 }
-.work td {
-    text-align: center;
-    text-transform: uppercase;
+td {
+    font-size: 20px;
+    padding: 10px;
 }
-.area input {
-    border-radius: 5px;
+select {
     float: left;
-    padding: 8px;
-    width: 331px;
+    width: 75px;
 }
-.area td {
-    text-align: center;
-    text-transform: uppercase;
+textarea {
+    float: left;
 }
-.textarea{float:left;}
 .button {
-    float: left;
-    text-align: center;
-    width: 96px !important;
-	color:white;
-	background:#000000;
-	font-size:15px;
+    background: black none repeat scroll 0 0;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 78px;
 }
-
 </style>
 
+
+
+
+</head>
+
 <body>
-<div class="wrapper">
-<div class="main"><h1>step 1: your details</h1>
-<div class="workarea">
-<div class="work">
-<form action="mailto:anitathakur04021999@gmail.com" method="post">
-<table width="50%"  align="center" >
+ <div class="container">
+	<div class="main"><fieldset><legend><h1>registration form for sports</h1></legend>
+	<div class="workarea">
+	<form name="form1" onsubmit="return validation()" action="" method="post">
+	<table width="500" align="center">
   <tr>
     <td>name</td>
-    <td><input name="Input" type="text" placeholder="first and last name" /></td>
+    <td><input type="text" name="name"placeholder="enter the name" /></td>
+  </tr>
+  <tr>
+    <td>sur name</td>
+    <td><input name="surname" type="text" placeholder="enter the sur name" /></td>
+  </tr>
+  <tr>
+    <td>date of birth</td>
+    <td><select><option>day</option></select>
+	<select><option>month</option></select>
+	<select><option>year</option></select></td>
+  </tr>
+  <tr>
+    <td>address</td>
+    <td><textarea name="address" cols="26" rows="4"></textarea></td>
+  </tr>
+  <tr>
+    <td>phone</td>
+    <td><input type="text" name="phone" placeholder=" enter the phone no" /></td>
   </tr>
   <tr>
     <td>email</td>
-    <td><input name="" type="text" placeholder="example@domain.com" /></td>
+    <td><input type="text" name="email" placeholder="enter the email" /></td>
   </tr>
   <tr>
-    <td>phone no</td>
-    <td><input name="" type="text"  placeholder="eg+450000000000"/></td>
+    <td>zip</td>
+    <td><input type="text" name="zip"placeholder="zip" /></td>
   </tr>
-  </table>
-
-
-
-
-</form><h1>step 2: delivery address</h1>
-<form action="" method="get"><table width="50%" align="center">
-  <tr>
-    <td>address</td>
-    <td ><textarea name="" cols="41" rows="4" class="textarea"></textarea></td>
-  </tr>
-  <tr>
-    <td>post code</td>
-    <td><input name="" type="text" /></td>
-  </tr>
-  <tr>
-    <td>country</td>
-    <td><input name="" type="text" /></td>
-  </tr>
-   <tr>
-  <td></td>
-  <td><input name="submit" type="submit" value="submit" class="button"/></td>
-  </tr>
-
-  
+<tr><td></td>
+<td> <input type="submit"value="submit" class="button" /></td></tr>
 </table>
- 
 </form>
-
-</div>
-
-</div>
-
-</div>
+</div></fieldset>
+	
+	</div>
+	
+	</div>
 </div>
 </body>
 </html>
