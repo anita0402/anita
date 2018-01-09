@@ -2,168 +2,156 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>personal info</title>
-<script>
-function validate()
-{
-var a=document.forms["myform"]["fname"].value;
-if(a==""){
-alert("please enter your name");
-return false;
-}
-var b=document.forms["myform"]["surname"].value;
-if(b=="")
-{
-alert("enter your surname");
-return false;
-}
-var c=document.forms["myform"]["fathersname"].value;
-if(c=="")
-{
-alert("enter your father's name");
-return false;
-}
-
-}
-
-
-</script>
+<title>company form</title>
 <style>
-.wrapper{width:1330px;
+.wrappper{width:100%;
+margin:auto;}
+.main{width:96%;
+margin:10px;
+float:left;}
+.header{width:100%;
+float:left;
+background:#FFFFFF;}
+.header nav li{float:left;
+border-right:solid #000066 2px;
+margin-right:20px;
+font-weight:bold;
+font-size:24px;
+list-style:none;
+text-transform:capitalize;}
+.menus{background:#34629D;
+width:100%;
+float:left;
+padding:15px;
+ 
 }
-.main{width:1300px;
-margin:auto;
+.menus nav li{float:left;
+color:#FFFFFF;
+text-transform:uppercase;
+list-style:none;
+margin-left:20px;
+margin-right:20px;
+background:#235379;
+padding:5px;
 }
-.information{
-background-color: #FF7E0099;
-text-align:center;}
+.details{align:center;
+width:auto;
+text-align:center;
+}
+
+h1{text-align:center;
+text-transform:capitalize;}
+input{width:100%; margin-bottom:15px;
+margin-top:10px;
+padding:5px;
+float:left;
+font-we }
+footer{background:#F4F2F5;
+width:100%;
+float:left;
+padding:10px;
+ 
+}
+footer nav li{float:left;
+color:black;
+text-transform:uppercase;
+list-style:none;
+margin-left:20px;
+margin-right:20px;
+background:#FFFFFF;
+border:#FDFFFE solid 1px;
+text-shadow:#000000;
+}
+
 td{text-align:left; 
 padding:10px;
-font-weight:bold;
-font-size:19px;
+font-size:20px;
 text-transform:capitalize;}
-.btnsubmit {
-    background: black;
-    color: white;
-    padding: 5px;
-    width: 70px;
-    font-size: 17px;
-    text-transform: capitalize;
-    border: none;
-    box-shadow: 2px 3px 2px 2px white;
-}
-
+.btnsubmit{width:100%;}
+#names{ width:256%;}
+#company {
+    padding: 7px;
+    width: 126%;}
+#title{width:256%;}
+#departement{width:256%;}
+#phone{width:107%;}
+#mobile{width:107%;}
+#mail{width:107%;}
+#fax{width:107%;}
+#address{width:256%;}
+#ext{width:83%;}
+#a{width:83%;}
+#b{width:83%;}
 </style>
 </head>
 
 <body>
 <div class="wrapper">
 <div class="main">
-<div class="information"><h1>personal information</h1>
-<table width="452" align="center">
- <form name="myform" action="" onsubmit="return validate()" method="post">
-
-   <tr><td>first name</td>
-    
-     <td> <input name="fname" type="text" placeholder="Enter Your First Name"/></td></tr>
+	<div class="header">
+		<nav><li>contactus</li>
+		<li style="color:#4B6D86;">add contact</li>
+		</nav></div>
+	<div class="menus">
+		<nav><li>save</li>
+		<li>save& add another</li>
+		<li>cancel</li></nav>
+	
+	</div>
+	<div class="details"><h1>add contact details</h1>
+	<form action="" method="post">
+	<table width="540"align="center">
+	  <tr>
+    <td>name*</td>
+    <td><input name="" type="text" id="names" placeholder="Enter The Name" required /></td>
+  </tr>
+  <tr>
+    <td>company</td>
+    <td><select name="company" id="company">
+      <option>Select Item</option>
+      <option value="India">India</option>
+      <option value="Ind">Aus</option>	
+	</select></td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td><input name="" type="text" id="title" placeholder="Enter The TITLE"  /></td>
+  </tr>
+  <tr>
+    <td>departement</td>
+    <td><input name="" type="text" id="departement"  placeholder="Enter The Department"/></td>
+  </tr>
  
-  <tr>
-    <td>surname</td>
-    <td>:<input name="surname" type="text"  placeholder="Enter Your Surname"/></td>
-  </tr>
-  <tr>
-    <td>father's name</td>
-    <td>:<input name="fathersname" type="text"  placeholder="Enter Your Father's Name"/></td>
-  </tr>
-  <tr>
-    <td>gender</td>
-   <td>
-    :<input name="" type="radio" value="" />male
-  <input name="" type="radio" value="" />female</td>
-  </tr>
-  <tr>
-    <td>date of birth</td>
-    <td>:<select name="text"><option>1</option>
-	<option>2</option>
-	<option>3</option>
-	<option>4</option>
-	<option>5</option>
-	<option>6</option>
-	<option>7</option>
-	<option>8</option>
-	<option>9</option>
-	<option>10</option></select>
-	 <select><option>janurary</option>
-	 <option>february</option>
-	 <option>march</option>
-	 <option>april</option>
-	 <option>may</option>
-	 <option>june</option>
-	 <option>july</option>
-	 <option>august</option>
-	 <option>september</option></select> 
-	 <select><option>1995</option>
-	 <option>1996</option>
-	 <option>1997</option>
-	 <option>1998</option>
-	 <option>1999</option>
-	 <option>2000</option>
-	 <option>2001</option>
-	 <option>2002</option>
-	 <option>2003</option></select></td>
-  </tr>
-  <tr>
-    <td>course</td>
-    <td>:<select name="text"><option>btech</option>
-	<option>BCA </option>
-	<option>BA </option>
-	<option> BSE</option>
-	</select> <select><option>cse</option>
-	<option>cevil </option>
-	<option>electronics </option>
-	<option>mechanical</option></select></td>
-  </tr>
-  <tr>
-    <td>address</td>
-    <td>:<textarea name="" cols="20" rows="5" ></textarea></td>
-  </tr>
   <tr>
     <td>phone no</td>
-    <td><select name="text"><option>+91 </option>
-	<option> 04</option>
-	<option>+96 </option>
-	<option>02 </option>
-	<option>03 </option>
-	<option>04 </option>
-	<option>05 </option>
-	<option>06 </option> </select><input name="" type="text" /></td>
+    <td><input name="" type="text" id="phone" placeholder="+91"/></td>
+    <td>ext.</td>
+    <td><input name="" type="text" id="ext" /></td>
   </tr>
   <tr>
-    <td>photo upload</td>
-    <td>:<input name="submit" type="button" value="choose file" required/> </td>
+    <td>mobile</td>
+    <td><input name="" type="text" id="mobile" placeholder="Mobile No" /></td>
+    <td>ext.</td>
+    <td><input name="" type="text" id="a"/></td>
   </tr>
   <tr>
-    <td>technical:</td>
-   <td>:<input name="technical" type="checkbox" value="" />C
-   
-    :<input name="" type="checkbox" value="" />C++
- :<input name="" type="checkbox" value="" />CSS
- :<input name="" type="checkbox" value="" />Html
- :<input name="" type="checkbox" value="" />Others</td></tr>
- <tr><td>feestructure</td>
- <td>:<select><option>2000</option>
- <option>2500</option>
- <option>3000</option>
- <option>4000</option></select></td></tr>
+    <td>fax</td>
+    <td><input name="" type="text" id="fax" placeholder="Enter The Fax"/>
+	</td>
+    <td>ext.</td>
+    <td><input name="" type="text" id="b" /></td>
+  </tr>
+  <tr><td>emailaddress*</td>
+  <td><input name="" type="text" id="address"  placeholder="Enter The Email" required/></td></tr>
   <tr>
-  <td><input name="submit" type="submit" class="btnsubmit" value="Submit"  /></td><td><input name="submit" type="submit" class="btnsubmit" value="reset" /></td>
-</tr>
-
+  <td><input name="submit" type="submit" /></td></tr> 
 </table>
-
- 
 </form>
 </div>
+<footer><nav><li>save</li>
+		<li>save& add another</li>
+		<li>cancel</li></nav>
+	</footer>
 </div>
 </div>
 </body>
