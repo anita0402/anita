@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>admission form</title>
+</head>
+<link rel="stylesheet" href="css/form.css" type="text/css"/>
+<script>
+function validate()
+{
+var a=document.forms["form1"]["name"].value;
+if(a=="")
+{
+alert("enter your name");
+return false;
+}
+var b=document.forms["form1"]["text2"].value;
+if(b=="")
+{
+alert("enter the adhaar uid");
+return false;
+}
+var c=document.forms["form1"]["text3"].value;
+if(c=="")
+{
+alert("enter the father's name");
+return false;
+}
+var d=document.forms["form1"]["text4"].value;
+if(d=="")
+{
+alert("enter the mother's name");
+return false;
+}
+var e=document.forms["form1"]["mobile"].value;
+if(e=="")
+{
+alert("enter the mobile no");
+return false;
+}
+var f=document.forms["form1"]["email"].value;
+if(f=="")
+{
+alert("enter the email id");
+return false;
+}
+var g=document.forms["form1"]["address"].value;
+if(g=="")
+{
+alert("enter the address");
+return false;
+}
+var h=document.forms["form1"]["corresponding"].value;
+if(h="")
+{
+alert("enter the correspondence address");
+return false;
+}
+var i=document.forms["form1"]["city"].value;
+if(i=="")
+{
+alert("enter the city name");
+return false;
+}
+var j=document.forms["form1"]["pincode"].value;
+if(j=="")
+{
+alert("enter the pincode");
+return false;
+}
+var k=document.forms["form1"]["phone"].value;
+if(k=="")
+{
+alert("enter the phone no");
+return false;
+}
+var l=document.forms["form1"]["present"].value;
+if(l=="")
+{
+alert("enter the present address");
+return false;
+}
+var m=document.forms["form1"]["past"].value;
+if(m=="")
+{
+alert("enter the corresponding address");
+return false;
+}
+var n=document.forms["form1"]["village"].value;
+if(n=="")
+{
+alert("enter the village name");
+return false;
+}
+var o=document.forms["form1"]["code"].value;
+if(o=="")
+{
+alert("enter the pincode");
+return false;
+}
+var p=document.forms["form1"]["no"].value;
+if(p=="")
+{
+alert("enter the phone no");
+return false;
+}
+var q=document.forms["form1"]["rollno"].value;
+if(q=="")
+{
+alert("enter the rollno");
+return false;
+}
+var r=document.forms["form1"]["college"].value;
+if(r=="")
+{
+alert("enter the college name");
+return false;
+}
+
+var s=document.forms["form1"]["exam"].value;
+if(s=="")
+{
+alert("enter the rollno");
+return false;
+}
+var t=document.forms["form1"]["registration"].value;
+if(t=="")
+{
+alert("enter the registration no");
+return false;
+}
+
+}
+</script>
+<body>
+<div class="container">
+	<div class="main">
+
+	<div class="header"><h1>online admission form</h1></div>
+	<div class="workarea">
+		<div class="first"><fieldset><legend> <p>personal details</p></legend>
+			<form name="form1" method="post"  onsubmit="return validate()" action="">
+			<table width="100%">
+  <tr>
+    <td style="color:#FF0000; font-weight:bold;">student name*</td>
+    <td><input name="name" type="text" placeholder="enter the name" required="" /></td>
+    <td style="color:#FF0000; font-weight:bold;">addhar UID*</td>
+    <td><input name="text2" type="text" placeholder="enter the UID no"  /></td>
+  </tr>
+  <tr>
+    <td>father's name</td>
+    <td><input name="text3" type="text" placeholder="father's name"/></td>
+    <td>mother"s name</td>
+    <td><input name="text4" type="text" placeholder="mother's name"/></td>
+  </tr>
+  <tr>
+    <td style="color:#FF0000; font-weight:bold;">D.O.B*</td>
+    <td ><select name="text"><option>1</option><option>2</option></select>
+	<select><option>jan</option><option>feb</option></select>
+	<select><option>1999</option><option>2000</option></select></td>
+    <td>gender</td>
+    <td><select name="text"><option>gender</option><option>female</option><option>male</option></select></td>
+  </tr>
+  <tr>
+    <td>mobile no</td>
+   <td><input name="mobile" type="text" /></td>
+    <td>email</td>
+    <td><input name="email" type="text" placeholder="enter the e-mail"/></td>
+  </tr>
+  </table>
+		
+	
+		</fieldset></div>
+		<div class="second"><fieldset><legend><p>permanent address</p></legend>
+	
+		<table width="100%">
+  <tr>
+    <td width="16%">address 1</td>
+    <td width="34%"><input name="address" type="text" placeholder="present address" /></td>
+    <td width="16%">adreess 2</td>
+    <td width="34%"><input name="corresponding" type="text" placeholder="corresponding address"/></td>
+  </tr>
+  <tr>
+    <td>city/village</td>
+    <td><input name="city" type="text" placeholder="village name" /></td>
+    <td style="color:#FF0000; font-weight:bold;">state*</td>
+    <td><select name="text"><option>hp</option>
+	<option>mp</option>
+	</select></td>
+  </tr>
+  <tr>
+    <td style="color:#FF0000; font-weight:bold;">pin code*</td>
+    <td><input name="pincode" type="text" placeholder="enter the pin code" /></td>
+    <td>phone no</td>
+    <td><input name="phone" type="text" /></td>
+  </tr>
+</table>
+	</fieldset>	
+		
+		</div>
+		<div class="third"><fieldset><legend> <p>present address</p></legend>
+		
+		<table width="100%">
+  <tr>
+    <td width="14%" style="color:#FF0000; font-weight:bold;">address 1*</td>
+    <td width="36%" ><input name="present" type="text" placeholder="present address" /></td>
+    <td width="16%">adreess 2</td>
+    <td width="34%"><input name="past" type="text" placeholder="corresponding address" /></td>
+  </tr>
+  <tr>
+    <td>city/village</td>
+    <td><input name="village" type="text" placeholder="village name" /></td>
+    <td style="color:#FF0000; font-weight:bold;">state*</td>
+    <td><select name="text"><option>hp</option>
+	<option>mp</option>
+	</select></td>
+  </tr>
+  <tr>
+    <td style="color:#FF0000; font-weight:bold;">pin code*</td>
+    <td><input name="code" type="text" placeholder="enter the pincode"  /></td>
+    <td>phone no</td>
+    <td><input name="no" type="text" /></td>
+  </tr>
+</table>
+</fieldset></div>
+
+		<div class="fourth"><fieldset><legend> <p>other details</p></legend>
+		<table width="100%">
+  <tr>
+    <td width="15%">exam roll no</td>
+    <td width="35%"><input name="rollno" type="text" placeholder="enter the roll no" /></td>
+    <td width="17%">insitute/college</td>
+    <td width="33%"><input name="college" type="date" placeholder="college name" /></td>
+  </tr>
+  <tr>
+    <td style="color:#FF0000; font-weight:bold;">category* </td>
+    <td><select name="text"><option>general</option>
+	<option>SC</option>
+	<option>ST</option>
+	<option>OBC</option></select>
+	</td>
+    <td>roll no in college</td>
+    <td><input name="exam" type="text" placeholder="college roll no" /></td>
+  </tr>
+  <tr>
+    <td>registration</td>
+    <td><input name="registration" type="text" placeholder="registration no" /></td>
+    <td>medium</td>
+    <td><select name="text"><option>hindi</option><option>english</option></select></td>
+  </tr>
+  <tr>
+    <td style="color:#FF0000; font-weight:bold;">handicap*</td>
+    <td><select name=""><option>blind</option><option>normal</option>
+	
+	<option>permanently disabled</option></select></td>
+    <td style="color:#FF0000; font-weight:bold;">capacity*</td>
+    <td><select><option>regular</option>
+	<option>ICDEOL</option></select></td>
+  </tr>
+
+<tr>
+  <td><input name="submit" type="submit" value="submit" class="button"  /></td>
+  <td><input name="reset" type="reset" value="reset" class="button"/></td></tr>
+</table>
+</form>
+		</fieldset></div>
+		</div>
+		</div></div>
+	</div>
+</body>
+</html>
