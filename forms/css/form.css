@@ -1,0 +1,159 @@
+
+/* CSS Document */
+.wrapper{width:1200px;
+margin:auto;}
+.main{width:1000px;
+margin:auto;
+}
+.header{width:100%;
+float:left;
+text-transform:capitalize;
+text-align:center;}
+.workarea{width:100%;
+float:left;
+padding:10px;
+border:solid 2px;}
+.first{width:100%;
+float:left;}
+.second{width:100%;
+float:left;}
+.third{width:100%;
+float:left;}
+.fourth{width:100%;
+float:left;}
+
+.first table {
+    margin-bottom: 37px;
+}
+.first tr {
+    padding: 26px;
+}
+.second table {
+    margin-bottom: 34px;
+}
+.third table {
+    margin-bottom: 30px;
+}
+.first td {
+    color: #000066;
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.first input {
+    padding: 4px;
+    width: 223px;
+	float:left;
+	text-align:center;
+	text-transform:capitalize;
+}
+.first select {
+    width: 78px;
+	float:left;
+}
+
+/*second table*/
+.second table {
+    margin-bottom: 37px;
+}
+.second tr {
+    padding: 26px;
+}
+.second table {
+    margin-bottom: 34px;
+}
+.second td {
+    color: #000066;
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+    text-transform: capitalize;
+
+}.second input {
+    padding: 4px;
+    width: 223px;
+	float:left;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+.second select {
+    width: 73px;
+	float:left;
+}
+/*third table*/
+.third table {
+    margin-bottom: 37px;
+}
+.third tr {
+    padding: 26px;
+}
+.third table {
+    margin-bottom: 34px;
+}
+.third table {
+    margin-bottom: 30px;
+}
+.third td {
+    color: #000066;
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+    text-transform: capitalize;
+
+}.third input {
+    padding: 4px;
+    width: 223px;
+	float:left;
+	text-transform:capitalize;
+	text-align:center;
+}
+.third select {
+    width: 73px;
+	float:left;
+}
+/*fourth table*/
+.fourth table {
+    margin-bottom: 37px;
+}
+.fourth tr {
+    padding: 26px;
+}
+.fourth table {
+    margin-bottom: 34px;
+}
+.fourth table {
+    margin-bottom: 30px;
+}
+.fourth td {
+    color: #000066;
+    font-weight: bold;
+    padding: 9px;
+    text-align: center;
+    text-transform: capitalize;
+
+}.fourth input {
+    padding: 4px;
+    width: 223px;
+	float:left;
+	text-transform:capitalize;
+	text-align:center;
+}
+.fourth select {
+    width: 73px;
+	float:left;
+}
+
+p{text-transform:capitalize;
+font-size:25px;}
+.button {
+    background: black none repeat scroll 0 0;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    width: 78px!important;}
+
+
+
