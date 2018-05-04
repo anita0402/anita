@@ -1,0 +1,23 @@
+var str="the str string is THIS"; //start pos 0 upto 21
+1) str.length;=>22	
+2) str.toUpperCase();=> THE STR STRING IS THIS
+3) str.toLowerCase();=> the str string is this
+4) str.charAt(4);=>s
+5) str.indexOf("str");=>4
+    str.indexOf("mtr");=>-1
+    str.indexOf("str",6);=>8
+6) str.lastIndexOf("str");=>8
+7) str.substr(5);=>tr string is THIS
+    str.substr(5,4);=>tr s            //No of char Counting
+8) str.substring(5);=>tr string is THIS
+    str.substring(5,9);=>tr s       //upto position -1
+
+9) var arr=str.split(" ");
+
+arr[0]="the";
+arr[1]="str";
+arr[2]="string";
+arr[3]="is";
+arr[4]="THIS";
+
+		

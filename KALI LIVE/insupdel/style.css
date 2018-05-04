@@ -1,0 +1,59 @@
+
+.display {
+    background: #808040 none repeat scroll 0 0;
+    width: 649px;
+}
+#preinput {
+    border: 1px solid;
+    float: left;
+    width: 163px;
+}
+#inputid{ border:solid 1px;}
+
+.display td {
+    background: lightblue none repeat scroll 0 0;
+    font-weight: bold;
+    padding: 10px;
+}
+.display table{ width:100%; border:solid 1px; }
+.viewrecords {
+   border: 5px solid;
+    border-radius: 20px;
+    margin: auto;
+    width: 960px;
+}
+.viewrecords table { border:solid 1px; background:#0066FF; color:#FFFFFF;  border-radius:15px; padding:15px; }
+.viewrecords th{ text-transform:uppercase; font-size:18px; border:solid #CCCCCC; background:#000000;}
+.viewrecords tr td{ border:solid 1px; padding:15px; font-weight:bold; }
+.viewrecords a{ text-decoration:none; text-transform:uppercase; color:#FFFFFF; padding:10px;}
+.display td #inputid {
+    border: medium solid red;
+    border-radius: 100px;
+    padding: 5px;
+    text-align: center;
+    width: 286px;
+}
+   .ab{
+	color: #ffffff;
+    padding: 10px;
+    text-decoration:none;
+    text-transform: uppercase;}
+	.abc{
+	border: 1px solid;
+	}
+
+#inputid1 {
+    background: green none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 100px;
+    box-shadow: 0 1px 2px yellow;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 7px 22px;
+    text-transform: uppercase;
+}
+#inputid1:hover{ background:#CC0000; color:#CCCCCC;}
+
+a:hover{background:#009900; color:red;
+padding:5px;}
