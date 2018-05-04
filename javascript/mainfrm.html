@@ -101,8 +101,6 @@ document.getElementById("txtphone").className += " invalid";
 document.getElementById("dt").className += " invalid";
 document.getElementById("txtuname").className += " invalid";
 document.getElementById("txtpass").className += " invalid";
-
-
 }
 else{
 var fnames,lnames,emails,ccode,phone,d_o_b,user_name,passwords;
@@ -124,7 +122,7 @@ var fnames,lnames,emails,ccode,phone,d_o_b,user_name,passwords;
 	var cell1=row.insertCell(1);
 	cell1.innerHTML=n;
 	var cell2=row.insertCell(2);
-	cell2.innerHTML=100+n;
+	cell2.innerHTML="<input type='text' value='100+n' />";
 
 	var cell3=row.insertCell(3);
 	cell3.innerHTML=fnames;
@@ -195,7 +193,7 @@ document.getElementById("demo").innerHTML=x;
   </div>
   <div class="tab">Birthday:
     <p><input placeholder="dd-mm-yy" oninput="this.className = ''" onChange="mydate1()"  name="dd" id="dt" type="date"></p>
-	<p><input type="text" id="ndt" onclick="mydate()" hidden></p>
+	<p><input type="text" id="ndt" onClick="mydate()" hidden></p>
 	<p id="demo" hidden></p>
     
   </div>
