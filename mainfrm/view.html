@@ -1,0 +1,119 @@
+<script language="javascript">
+function AddRecords(n)
+{
+var fnames,lnames,emails,phone,d_o_b,user_name,passwords;
+	fnames=document.getElementById("txtfname").value;
+	lnames=document.getElementById("txtlname").value;
+	emails=document.getElementById("txtemail").value;
+	phone=document.getElementById("txtphone").value;
+	d_o_b=document.getElementById("txtdd").value;
+	d_o_bnn=document.getElementById("txtnn").value;
+	d_o_byy=document.getElementById("txtyy").value;
+	user_name=document.getElementById("txtuname").value;
+	passwords=document.getElementById("txtpass").value;
+	var tbl=document.getElementById("tblstud");
+	var n=tbl.rows.length;
+	
+	
+	var row=tbl.insertRow(n);
+	var cell0=row.insertCell(0);
+	cell0.innerHTML= "<input type='checkbox' />";
+	var cell1=row.insertCell(1);
+	cell1.innerHTML=n;
+	var cell2=row.insertCell(2);
+	cell2.innerHTML=100+n;
+
+	var cell3=row.insertCell(3);
+	cell3.innerHTML=fnames;
+	var cell4=row.insertCell(4);
+	cell4.innerHTML=lnames;
+	var cell5=row.insertCell(5);
+	cell5.innerHTML=emails;
+	var cell6=row.insertCell(6);
+	cell6.innerHTML=phone;
+	var cell7=row.insertCell(7);
+	cell7.innerHTML=d_o_b;
+	var cell8=row.insertCell(8);
+	cell8.innerHTML=d_o_bnn;
+	var cell9=row.insertCell(9);
+	cell9.innerHTML=d_o_byy;
+	var cell10=row.insertCell(10);
+	cell10.innerHTML=user_name;
+	var cell11=row.insertCell(11);
+	cell11.innerHTML=passwords;
+
+
+}
+function CheckedUnChecked(chk)
+{
+	var n=document.form1.length;
+	var i;
+	for(i=0;i<n;i++)
+	{
+		var ctr=document.form1.elements[i];
+		if(ctr.type=="checkbox")
+		 ctr.checked=chk;
+	}
+}
+
+var n=document.getElementById("totals").rows.length;
+</script>
+<form id="regForm" name="regForm" >
+  <h1>Register:</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">Name:
+    <p><input placeholder="First name..." oninput="this.className = ''" name="fname" id="txtfname"></p>
+    <p><input placeholder="Last name..." oninput="this.className = ''" name="lname" id="txtlname"></p>
+  </div>
+  <div class="tab">Contact Info:
+    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email" id="txtemail"></p>
+    <p><input placeholder="Phone..." oninput="this.className = ''" name="phone" id="txtphone"></p>
+  </div>
+  <div class="tab">Birthday:
+    <p><input placeholder="dd" oninput="this.className = ''" name="dd" id="txtdd"></p>
+    <p><input placeholder="mm" oninput="this.className = ''" name="nn" id="txtnn"></p>
+    <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy" id="txtyy"></p>
+  </div>
+  <div class="tab">Login Info:
+    <p><input placeholder="Username..." oninput="this.className = ''" name="uname" id="txtuname"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password" id="txtpass"></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+	
+      <button type="button" id="prevBtn" onClick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onClick="nextPrev(1)">Next</button>
+	  <button type="button" id="addrecords" onClick="AddRecords(2)"> View Record</button>
+
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+
+</form>
+<form name="form1" id="form1">
+<table  width="100%"  border="0" id="tblstud">
+<tr>
+<th><input type="checkbox"  onclick="CheckedUnChecked(this.checked)" /></th>
+<th>Sr.No</th>
+<th>Rollno</th>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Email</th>
+<th>Phone</th>
+
+<th colspan="3" border="0">date of Birth</th>
+<th>User Name</th>
+<th>Password</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>  
+
+</form>
