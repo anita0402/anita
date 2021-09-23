@@ -1,0 +1,159 @@
+*{
+	text-decoration:none;
+}
+body{
+	margin:0;
+	padding:0;
+    background-color:#f3f3f3;
+}
+header{
+		background-color:#fff;
+		width:100%;
+		height:125px;
+}
+header h1{
+		font-style:italic;
+		font-size:38px;
+		display:block;
+		margin:0 auto;
+		text-align:center;
+        color:green;
+		padding:20px 0px;
+}
+.menu{
+	float:right;
+}
+.menu table tr{
+	display:block;
+	margin:0 auto;
+	width:fit-content;
+}
+.menu table tr td{
+	display:inline-block;
+	float:left;
+	list-style:none;
+}
+.menu table tr td a{
+	font-family:arial;
+	font-size:12px;
+	color:#111;
+}
+.wrapper{
+	width:100%;
+}
+.divide h1{
+     text-align:center;
+     font-family:arial;
+     font-size:24px; 
+	 color:#111;
+	 line-height:34px;
+}
+.left p{
+	  margin-top:40px;
+     text-align:center;
+     font-family:arial;
+     font-size:20px; 
+	 color:#111;
+	 line-height:44px;
+}
+.left img{
+	width:100%;
+}
+.right p{
+	 margin-top:20px;
+     padding:0px 30px 20px;
+     font-family:arial;
+     font-size:18px; 
+	 color:#111;
+	 line-height:24px;
+}
+@media only screen and (min-width:768px){
+.wrapper{
+	width:600px;
+	margin:0 auto;
+   }
+   .divide h1{
+	 padding:40px 0px 0px;
+   }
+	.left p{
+  	 padding:10px 0px 0px;
+   }
+   .right p{
+     padding:20px 0px 0px;
+   }
+   .left img{
+	padding:0px 0px 20px;
+    }
+}
+@media only screen and (min-width:1000px){
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+.left img{
+	width:50%;
+	float:right;
+	padding:27px 5px 0px;
+}
+}
+footer{
+	width:calc(100% - 80px);
+    padding: 40px 40px;
+	background-color:#111;
+	overflow:hidden;
+}
+footer ul{
+	width:fit-content;
+	float:left;
+	padding-left:20px;
+}
+footer ul li {
+	display:block;
+	list-style:none;
+	
+}
+footer ul li a{
+	font-family:catamaran;
+     font-size:12px;
+     color:#fff;
+     line-height:27px;
+ }
+.footer-links-main{
+	display:none;
+}
+.footer-sm{
+	width:60px;
+	float:right;
+}
+.footer-sm  img{
+	width:65px;
+	margin-bottom:10px;
+}
+.copyright 
+  {
+	  float:left;
+  }
+.copyright 
+  p{
+   text-align:center; 
+   color:#fff;
+ }
+	
+@media only screen and (min-width:1000px)
+{
+.footer-links-main{
+	display:block;
+}
+footer ul li a{
+	font-family:catamaran;
+     font-size:20px;
+     color:#fff;
+     line-height:27px;
+}
+.copyright 
+  p{
+	  color:#fff;
+	 margin-top:200px;
+      text-align:center;
+  }
+}
