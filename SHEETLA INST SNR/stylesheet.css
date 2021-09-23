@@ -1,0 +1,511 @@
+.wrapper{
+    width: 1502px;
+    
+    float: left;
+}
+
+.main {
+    float: left;
+    width: 1502px;
+   
+}
+.logo {
+    width: 203px;
+    float: left;
+   
+}
+.logo img{
+width:200px;
+float:left;.
+}
+.header {
+    width: 833px;
+    float: left;
+    
+}
+.header p{
+font-size:48px;
+color: #ff0c0c;
+text-transform:uppercase;
+font-weight:bold;
+}
+.header i{font-size:15px;
+color:#000066;}
+.menu{
+float:left;
+width:1500px;
+
+background-color:#000066;
+color:white;
+}
+.menu ul{
+float:left;
+text-decoration:none;}
+.menu ul li {
+    float: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style: none;
+    width: 200px;
+}
+.menu ul li a{text-decoration:none;
+color:white;
+
+}
+.submenu {
+    padding: 8px;
+    width: 167px;
+     display: none; 
+    background: #000066;
+    position: absolute;
+}
+
+.submenu li {
+    margin-left: -14px;
+    padding: 15px;
+    z-index: 999;
+}
+.menu ul li:hover .submenu {display:block;}
+a .active{
+    background: white;
+    padding: 16px;
+    color: blue;
+}
+.menu ul li a:hover{background-color:#FFFFFF;
+color:#000066;
+padding:5px;
+
+}
+menu ul li.active {background:white;
+color:blue;} 
+button {
+    background: #000066;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: wheat;
+    box-shadow: 1px 1px 6px 4px black;
+    float: left;
+    width: 100px;
+}
+button a{
+ color: wheat;
+}
+.workarea{width:1475px;
+float:left;}
+.abotwork{width:1145px;
+float:left;}
+.admwork{width:1145px;
+float:left;}
+.abotwork marquee {
+    background: #E04353;
+    float: left;
+    border: white;
+    padding: 1px;
+    font-size: 18px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.admwork marquee {
+    background: #E04353;
+    float: left;
+    border: white;
+    padding: 1px;
+    font-size: 18px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.left{width:350px;
+float:left;}
+
+.noticeboard{width:350px;float:left;height: 811px;}
+.noticeboard p {
+    background-color: #000066;
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.noticeboard ul li{font-size:20px;
+text-transform:capitalize;
+font-weight:bold;
+
+padding:5px;}
+.right img{width:1125px;
+float:left;
+}
+.address {
+    width: 450px;
+    float: left;
+   
+}
+.address p {
+    text-align: right;
+    text-transform: capitalize;
+    color: #ff0c0c;
+    font-weight: bold;
+    font-size: 19px;
+}
+.right b{font-size:25px;background-color:#000066;color:#FFFFFF;font-weight:
+bold;width:1120px;padding: 5px;}
+.right p{ font-size:18px;}
+.footer{width:1502px;
+font-size:18px;
+background-color:#000066;
+float:left;
+text-decoration::none;
+color:#FFFFFF;
+height:130px;
+text-align:center;
+}
+.footer ul li{float: left;
+    font-size: 20px;
+    
+    list-style: none;
+    width: 360px;
+	text-transform:capitalize;
+}
+.footer a{size:30px;
+color:#FFFFFF;}
+
+.about {
+    border: solid 2px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    /* background: #f2ebeb; */
+    border-radius: 60px 0px 96px 0px;
+    width: 800px;
+    padding: 20px;
+    font-size: 18px;
+}
+.about b {
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: underline;
+    background: #000066;
+    padding: 6px;
+    color: wheat;
+    text-align: center;
+    float: left;
+    margin-left: 31px;
+}
+.gallery p{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    float: left;
+    margin-left: 39px;
+}
+.admission{width:1145px;
+float:left;}
+.admission b{
+    font-size: 46px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #000066;
+}
+.admission p{font-size:25px;
+color:#E04353;}
+#submitt
+{
+
+}
+table {
+    width: 100%;
+    float: left;
+   
+    border: 1;
+}
+table tr td {
+    width: 285px;
+    padding: 14px;
+}
+table tr td input {
+    padding: 12px;
+    width: 277px;
+}
+table tr td label{
+    font-size: 30px;
+    color: #E04353;
+    padding: 4px;
+}
+table tr td select {
+    padding: 7px;
+    font-weight: bold;
+}
+.gender{width: 40px;}
+#submit{
+
+
+    font-weight: bold;
+    font-size: 26px;
+    background: yellow;
+    box-shadow: 1px 3px 12px 5px #000066;
+    width: 235px;
+    border-radius: 20px 20px 20px 20px;
+
+
+}
+#cancel{
+
+
+    font-weight: bold;
+    font-size: 26px;
+    background: #E04353;
+    box-shadow: 1px 3px 12px 5px black;
+    width: 235px;
+	color:white;
+
+    border-radius: 20px 20px 20px 20px;
+
+}
+.contwork{width:1145px;
+float:left;}
+.contwork marquee{background: #E04353;
+    float: left;
+    border: white;
+    padding: 1px;
+    font-size: 18px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.contact b{ font-size: 46px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #000066;}
+.contact p {
+    font-size: 25px;
+}
+.contact {
+    border: solid 2px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    /* background: #f2ebeb; */
+    border-radius: 60px 0px 96px 0px;
+    width: 800px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.gallerywork{width:1145px;
+float:left;}
+.gallerywork marquee{background: #E04353;
+    float: left;
+    border: white;
+    padding: 1px;
+    font-size: 18px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.gallery b{ font-size: 46px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #000066;}
+	.faculty b{ font-size: 46px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #000066;}
+.galleryul li {font-size: 25px;
+    text-align: left;
+    float: left;
+    width: 100%;
+    }
+.logwork{width:1145px;
+float:left;}
+.logwork marquee{background: #E04353;
+    float: left;
+    border: white;
+    padding: 1px;
+    font-size: 18px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.studentsignup {float:left;width: 546px;border:  saddlebrown;margin-right: 20px;}
+.studentsignup h1{
+
+width: 100%;
+
+padding:20px;
+
+color:#000066;
+
+text-align: center;
+
+text-decoration: underline;
+}
+.studentsignup tr td{padding:20px;color:#FF0000;width: 200px;}
+label{color:red;
+font-size:24px;
+padding:20px;}
+
+.studentlogin{float: left;width: 581px;margin-top: 237px;}
+.studentlogin h1{width: 100%;padding:20px;color:#000066;text-align: center;text-decoration: underline;}
+.pleft {
+    
+width: 749px;
+    
+float: left;
+    
+height: 319px;
+    
+margin-top: 24px;
+}
+
+
+.imgright{width: 359px;float: left;margin-left: 17px;margin-top: 20px;}
+.imgright img {
+    width: 358px;
+    height: 288px;}
+	
+.associate img {
+    width: 332px;
+	overflow: hidden;
+    border: 7px solid #ddd;
+    border-radius: 5px;
+	margin-left:25px;
+	margin-bottom:15px;
+}
+
+.hover img {
+    transform: scale(1);
+    transition: all 0.8s ease-in-out 0s;
+}
+.imgright h {
+    font-size: 27px;
+    float: left;
+    width: 100%;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+.associate p{
+      color: red;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      }
+.md p {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+.gallery img{ width: 332px;
+	overflow: hidden;
+    border: 7px solid #ddd;
+    border-radius: 5px;
+	margin-left:25px;
+	margin-bottom:15px;
+	}
+	.imageleftt{
+	width: 376px;
+	height: 514px;
+	float: left;
+	}
+	.loginn{width:100%;
+padding:21px;
+color:#000066;}
+.dca {
+  
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    /* background: #f2ebeb; */
+   
+    width: 1000px;
+    padding: 20px;
+    font-size: 18px;
+	}
+	.dca b {
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: underline;
+    background: #000066;
+    padding: 6px;
+    color: wheat;
+    text-align: center;
+    float: left;
+    margin-left: 31px;}
+	.basic {
+  
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    /* background: #f2ebeb; */
+   
+    width: 1000px;
+    padding: 20px;
+    font-size: 18px;}
+	.basic b {
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: underline;
+    background: #000066;
+    padding: 6px;
+    color: wheat;
+    text-align: center;
+    float: left;
+    margin-left: 31px;}
+	.account {
+  
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    /* background: #f2ebeb; */
+   
+    width: 1000px;
+    padding: 20px;
+    font-size: 18px;}
+	.account b {
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: underline;
+    background: #000066;
+    padding: 6px;
+    color: wheat;
+    text-align: center;
+    float: left;
+    margin-left: 31px;}
+	
+	
+	
+	
+	.studentsignup tr {
+    width: 531px;
+    float: left;
+}
+	
+	.myTable { 
+  width: 100%;
+  text-align: left;
+  background-color: lemonchiffon;
+  border-collapse: collapse; 
+  }
+.myTable th { 
+  background-color: goldenrod;
+  color: white; 
+ 
+  }
+.myTable td, 
+.myTable th { 
+  padding: 10px;
+  border: 1px solid goldenrod; 
+  }
+  table th{
+  background-color:#000066;
+  color:white;
+  font-size:25px;
+  height:50px;}
