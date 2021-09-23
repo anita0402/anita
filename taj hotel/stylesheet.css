@@ -1,0 +1,533 @@
+
+
+/* CSS Document */
+
+.wrapper {
+width:100%;
+float:left;
+}
+.main {
+width:100%;
+float:left;
+}
+.header{width: 100%;float:left;
+background-color:#F6F6F6;}
+.logo{
+
+width: 152px;
+
+float: left;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+}
+.menus {width: 1175px;float:left;margin-top: 22px;}
+.menus ul {width: 1130px;float:left;}
+.menus ul li {float: left;width: 149px;list-style: none;font-size: 24px;margin-left: 24px;text-transform: capitalize;}
+.menus ul li a {
+
+color: black;
+
+text-decoration: none;
+}
+.menus ul li a:hover{
+
+background:black;
+color:white;
+padding:6px;}
+.menus ul li ul {padding:10px;
+position:absolute;
+width:150px;
+display:none;
+background-color:#F6F6F6;}
+.menus ul li ul li{
+margin-left:1px;
+padding:4px;
+z-index:999;
+color:black;
+}
+.menus ul li:hover ul{display:block;}
+.image {
+width:100%;
+float:left;
+}
+.image {
+width:100%;
+float:left;
+}.image img {
+width:100%;
+float:left;
+}
+.welcome{
+width:1350px;
+float:center;
+font-size:12px;
+}
+.Welcome b {
+width:1350px;
+float:left;
+font-size:12px;}
+.text{
+width:1350px;
+float:left;
+text-align:center;
+}
+.text h1 {
+width:1350px;
+float:left;
+text-align:center;
+}
+.mainimagebox{width: 100%;float:left;}
+.imgleft {
+    width: 396px;
+	
+    float: left;
+	
+	
+}
+.imgleft img{
+ width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;
+	
+}
+
+.imgcenter {
+    width: 396px;
+    float: left;
+    margin-left: 24px;
+	
+}
+.imgcenter img{
+  width: 396px;
+  height:262px;
+    float: left;
+    
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;
+}
+
+
+.imgright {
+    width: 446px;
+    float: left;
+    margin-left: 42px;
+	
+}
+.imgright img {
+     width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+.singletext{
+width:1350px;
+float:left;
+text-align:center;
+}
+.singletext h1 {
+width:1350px;
+float:left;
+text-align:center;
+}
+.singleimagebox{width: 100%;float:left;}
+.singleimgleft {
+    width: 396px;
+    float: left;
+}
+.singleimgleft img{
+ width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+.singleimgcenter {
+    width: 396px;
+    float: left;
+    margin-left: 24px;
+}
+.singleimgcenter img{
+ width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+
+.singleimgright {
+    width: 446px;
+    float: left;
+    margin-left: 42px;
+}
+.singleimgright img {
+    width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+.classictext{
+width:1350px;
+float:left;
+text-align:center;
+}
+.classictext h1 {
+width:1350px;
+float:left;
+text-align:center;
+}
+.classicimagebox{width: 100%;float:left;}
+.classicimgleft {
+    width: 396px;
+    float: left;
+}
+.classicimgleft img{
+ width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+.classicimgcenter {
+    width: 396px;
+    float: left;
+    margin-left: 24px;
+}
+.classicimgcenter img{
+  width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+.classicimgright {
+    width: 446px;
+    float: left;
+    margin-left: 42px;
+}
+.classicimgright img {
+     width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+.Extext{
+width:1350px;
+float:left;
+text-align:center;
+}
+.Extext h1 {
+width:1350px;
+float:left;
+text-align:center;
+}
+.Eximagebox{width: 100%;float:left;}
+.Eximgleft {
+    width: 396px;
+    float: left;
+}
+.Eximgleft img{
+  width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+.Eximgcenter {
+    width: 396px;
+    float: left;
+    margin-left: 24px;
+}
+.Eximgcenter img{
+  width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+
+.Eximgright {
+    width: 446px;
+    float: left;
+    margin-left: 42px;
+}
+.Eximgright img {
+    width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+.Royalroomimagebox{width: 100%;float:left;}
+.Royalimgleft {
+    width: 396px;
+    float: left;
+}
+.Royalimgleft img{
+  width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+.Royalimgcenter {
+    width: 396px;
+    float: left;
+    margin-left: 24px;
+}
+.Royalimgcenter img{
+  width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+
+.Royalimgright {
+    width: 446px;
+    float: left;
+    margin-left: 42px;
+}
+.Royalimgright img {
+     width: 396px;
+    float: left;
+    height:262px;
+	overflow:hidden ;
+	margin-left:25px;
+	border:7px solid #ddd;
+    
+	margin-bottom:15px;}
+
+.footer {
+    width: 1350px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+.footerleft {
+	    width: 1350px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+
+.footerleft img {
+   width: 200px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+.footerleft p {
+	width: 1350px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+	.footercenter {
+	width: 1350px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+.footercenter ul{
+	width: 1350px;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+	color:black;
+}
+.footercenter li {
+	width: 1350px;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+	color:yellow;
+}
+	.footerright {
+	width: 1350px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+.footerright button {
+	width: 1350px;
+    float: left;
+    background-color: #313A45;
+    margin-top: 10px;
+	color:#FFFFFF;
+}
+.welcome{
+width:1350px;
+float:left;
+margin-top:10px;
+margin-bottom:10px;
+}
+.welcometext {
+width:1350px;
+float:left;
+margin-top:10px;
+margin-bottom:10px;
+}
+.welcometext p {
+width:1350px;
+float:left;
+margin-top:10px;
+margin-bottom:10px;
+}
+.left {
+    width: 301px;
+    float: left;
+   
+    margin-right: 4px;
+    margin-left: 20px;
+}
+
+.left p {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+.left img {width: 302px;float:left;text-align:center;height: 214px;}
+
+
+
+
+.facility {
+width:1350;
+float:left;
+text-align:center;
+margin-top:20px;
+
+}
+
+.left a{
+    border: solid;
+    float: left;
+    width: 69px;
+    padding: 5px;
+    font-size: 19px;
+    margin-left: 114px;
+}
+.left a:hover{color:white;
+background-color:#0000FF;}
+.footer {width: 1341px;float:left;}
+.leftfooter
+{width: 346px;float:left;border: }
+.leftfooter img {width: 114px;float:left;margin-top:7px;margin-left:10px;}
+.leftfooter p {float:left;text-align: center;font-size: 23px;}
+.centerfooter
+{width: 449px;float:left;}
+.centerfooter ul {
+list-style:none;
+float:left;
+}
+.centerfooter a {width: 396px;float:left;color: wheat;text-decoration: none;height: 62px;text-align: center;font-size: 23px;}
+
+.rightfooter {
+width:534px;
+float:left;
+}
+
+.rightfooter img {
+width:500px;
+float:left;
+}
+.cpy {
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    text-transform: capitalize;
+	float:left;
+}
+.contact{width:100%;
+float:left;}
+.contact img {width:100%
+float:left;
+}
+
+    
+.intro {
+width="1350;
+float:left;
+margin-top:30px;
+text-align:center}
+.intro p {
+width="1350;
+float:left;
+margin-top:30px;
+margin-left:180px;
+text-align:Left;}
+
+
+.home  {
+    margin-right: -86px;
+    margin-left: -28px;
+}
+.form {width:1350px;
+float:left;
+border:solid;
+}
+
