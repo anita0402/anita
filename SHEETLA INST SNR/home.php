@@ -38,7 +38,12 @@ email:sheetlainstitutesnr@gmail.com
 		<li><a href="account.php">E-accountant</a></li>
 		</li>
 		</ul>
-<li><a href="faculty.php">faculty</a></li>
+<li><a href="faculty.php">faculty</a>
+	
+	<ul class="submenu"><li><a href="dca.php">1 year</a></li>
+		<li><a href="basiccomp.php">3 & 6 months</a></li>
+	
+	</li>
 <li><a href="contact.php">contact us</a></li>
 <li><a href="studentlogin.php">login/sign up</a></li>
 </ul>
